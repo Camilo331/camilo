@@ -1,0 +1,59 @@
+body {
+
+    margin: 0%; /* Margen de todo el contenido vuelva a su estado incial */
+    background: black; /* Establece el color de fondo de la pagina */
+}
+
+.titulo_reuma {
+
+    font-size: 35px; /* Establece el tamaño de la fuente(letra) del titulo */
+    letter-spacing: normal; /* Establece espacio entre letra y letra del titulo */
+    padding: 30px 0px; /* Relleno superior e inferior son 30px. Relleno derecho e izquierdo son 0px */
+    color: salmon; /* Establece color de la fuente(letra) del titulo */
+    text-align: center; /* Establece un centrado del titulo */
+    font-family: segoe print; /* Establece la tipografia de la fuente(letra) */
+}
+
+.parrafo_reuma {
+
+    letter-spacing: 1px; /* Establece espacio entre letra y letra del subtítulo de 1px */
+    font-family: cursive; /* Establece la tipografia de la fuente(letra) */
+    color: #ffffff; /* Establece color de la fuente(letra) del parrafo */
+    font-size: 20px; /* Establece el tamaño de la fuente(letra) del parrafo */    
+    text-align: justify; /* Establece un justificado de la fuente(letra) del parrafo */
+    margin-top: 30px; /* Crea un renglon entre el subtitulo y el parrafo */
+    padding: 0px 30px; /* Establece un relleno superior e inferior de 0px, derecho e izquierdo de 30px */
+}
+
+.titulo_clasifi {
+
+    font-size: 25px; /* Establece el tamaño de la fuente(letra) del titulo */
+    letter-spacing: normal; /* Establece espacio entre letra y letra del titulo */
+    padding: 30px 0px; /* Relleno superior e inferior son 30px. Relleno derecho e izquierdo son 0px */
+    color: salmon; /* Establece color de la fuente(letra) del titulo */
+    text-align: center; /* Establece un centrado del titulo */
+    font-family: segoe print; /* Establece la tipografia de la fuente(letra) */
+
+}
+
+.parrafo_clasifi {
+
+    letter-spacing: 1px; /* Establece espacio entre letra y letra del subtítulo de 1px */
+    font-family: cursive; /* Establece la tipografia de la fuente(letra) */
+    color: #ffffff; /* Establece color de la fuente(letra) del parrafo */
+    font-size: 20px; /* Establece el tamaño de la fuente(letra) del parrafo */    
+    text-align: justify; /* Establece un justificado de la fuente(letra) del parrafo */
+    margin-top: 30px; /* Crea un renglon entre el subtitulo y el parrafo */
+    padding: 0px 30px; /* Establece un relleno superior e inferior de 0px, derecho e izquierdo de 30px */
+
+}
+
+.lista_degen {
+
+    letter-spacing: 1px; /* Establece espacio entre letra y letra de la lista de 1px */
+    font-family: cursive; /* Establece la tipografia de la fuente(letra) */
+    color: #ffffff; /* Establece color de la fuente(letra) de la lista */
+    font-size: 20px; /* Establece el tamaño de la fuente(letra) de la lista */
+    text-align: justify; /* Establece un justificado de la fuente(letra) de la lista */
+    padding: 0px 30px; /* Establece un relleno superior e inferior de 0px, derecho e izquierdo de 30px */
+}

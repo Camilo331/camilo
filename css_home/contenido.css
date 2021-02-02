@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box; /* Se van añadir al tamaño de largo y ancho de la pagina, para que no quede una margen a los alrededores  */
+}
+
+body {
+
+    margin: 0%; /* Margen de todo el contenido vuelva a su estado incial */
+    background: black; /* Fondo de mi pagina color negro */
+}
+
+.bloque_titulo h1 {
+
+    font-size: 35px; /* Tamaño del titulo */
+    letter-spacing: normal; /* Espacio entre letra y letra normal */
+    padding: 30px 0px; /* Relleno superior e inferior son 30px. Relleno derecho e izquierdo son 0px */
+    color: salmon; /* Color de letra */
+    text-align: center; /* Texto centrado */
+    font-family: segoe print; /* Tipografia */
+}
+
+.bloque_titulo h2 {
+
+    font-size: 28px; /* Tamaño del subtitulo */
+    letter-spacing: normal; /* Espacio entre letra y letra normal */
+    padding: 0px 30px; /* Relleno en la parte superior de 0 y al lado derecho de 30 */
+    color: salmon; /* Color de letra */
+    text-align: center; /* Texto centrado */
+    font-family: segoe print; /* Tipografia */
+
+}
+
+.parrafo_titulo {
+
+    letter-spacing: 1px; /* Espacio entre letra y letra */
+    font-family: cursive; /* Tipografia */
+    color: #ffffff; /* Color de letra blanco */
+    font-size: 20px; /* Tamaño de la letra  */    
+    text-align: justify; /* Texto justificado */
+    margin-top: 30px; /* Crea un renglon entre el subtitulo y el parrafo */
+    padding: 0px 30px;
+}
+
+.subtitulo_vision {
+
+    font-size: 22px; /* Tamaño del subtitulo */
+    letter-spacing: normal; /* Espacio entre letra y letra normal */
+    padding: 0px 30px; /* Relleno en la parte superior de 0 y al lado derecho de 30 */
+    color: salmon; /* Color de letra */
+    text-align: center; /* Texto centrado */
+    font-family: segoe print; /* Tipografia */
+}
+
+.parrafo_vision {
+
+    letter-spacing: 1px; /* Espacio entre letra y letra */
+    font-family: cursive; /* Tipografia */
+    color: #ffffff; /* Color de letra */
+    font-size: 20px; /* Tamaño de la letra */
+    text-align: justify; /* Texto justificado */
+    margin-top: 30px; /* Crea un renglon entre el subtitulo y el parrafo */
+
+}
+
+.subtitulo_asisten {
+
+    font-size: 22px; /* Tamaño letra del subtitulo */
+    letter-spacing: normal; /* Espacio entre letra y letra normal */
+    padding: 5px 30px; /* Relleno en la parte superior, y a los lados */
+    color: salmon; /* Color de letra */
+    text-align: center; /* Texto centrado */
+    font-family: segoe print; /* Tipografia */
+
+}
+
+.parrafo_asisten {
+
+    letter-spacing: 1px; /* Espacio entre letra y letra */
+    font-family: cursive; /* Tipografia */
+    color: #ffffff; /* Color de letra */
+    font-size: 20px; /* Tamaño de la letra */
+    text-align: justify; /* Texto justificado */
+    margin-top: 0px; /* Crea un renglon entre el subtitulo y el parrafo */
+
+}
+
+.subtitulo_medios {
+
+    font-size: 22px; /* Tamaño letra del subtitulo */
+    letter-spacing: normal; /* Espacio entre letra y letra normal */
+    padding: 0 30px; /* Relleno en la parte superior de 0 y a los lados 30 */
+    color: salmon; /* Color de letra */
+    text-align: center; /* Texto centrado */
+    font-family: segoe print; /* Tipografia */
+}
+
+.lista_medios {
+
+    letter-spacing: 1px; /* Espacio entre letra y letra */
+    font-family: cursive; /* Tipografia */
+    color: #ffffff; /* Color blanco de la letra */
+    font-size: 20px; /* Tamaño de la letra */
+    text-align: justify; /* Texto justificado */
+
+}
+
+li {
+
+    margin-bottom: 20px; /* Establece el margen inferior de cada viñeta de las listas */
+}
+
+.subtitulo_proces {
+
+    font-size: 22px; /* Tamaño letra del subtitulo */
+    letter-spacing: normal; /* Espacio entre letra y letra */
+    padding: 20px 30px; /* Relleno en la parte superior de 0 y a los lados 30 */
+    color: salmon; /* Color del subtitulo */
+    text-align: center; /* Subtitulo centrado */
+    font-family: segoe print; /* Tipografia */
+
+}
+
+.parrafo_proces {
+
+    letter-spacing: 1px; /* Espacio entre letra y letra */
+    font-family: cursive; /* Tipografia */
+    color: #ffffff; /* Color de letra */
+    font-size: 20px; /* Tamaño de la letra */
+    text-align: justify; /* Texto justificado */
+    margin-bottom: 50px; /* Crea un espacio hacia abajo */
+
+}
+
+.lista_proces {
+
+    letter-spacing: 1px; /* Espacio entre letra y letra */
+    font-family: cursive; /* Tipografia */
+    color: #ffffff; /* Color blanco de la letra */
+    font-size: 20px; /* Tamaño de la letra */
+    text-align: justify; /* Texto justificado */
+    
+}
+
+.contenido_f {
+
+    display: flex; /* Establecemos que sea un contenedor flexible para poderle dar la propiedad de justify-content: center; */
+    justify-content: center; /* Alinea los elementos flexibles al centro del contenedor */
+    align-items: center; /* Establece la alineación predeterminada para los elementos dentro del contenedor flexible */
+
+}
+
+.titulo_mapa {
+
+    color: salmon; /* Establece el color de la fuente(título) */
+    text-align: center; /* Establece un centrado del título */
+    font-family: cursive; /* Específica la fuente del título */
+    padding: 35px 0 15px 0; /* Establece relleno superio de 35px, relleno derecho de 0, relleno inferior de 15px, relleno izquierdo de 0 */
+    font-size: 30px; /* Establece el tamaño de la fuente(letra) */
+
+}
+
+iframe {
+
+    margin-top: 40px; /* Establece el margen superior entre el mapa y el título */
+    border-radius: 10px; /* Establece esquinas redondeadas del mapa */
+    margin-left: 120px; /* Establece el margen izquierdo del mapa */
+
+}
+
+form {
+    
+    margin-left: 120px; /* Establece el margen izquierdo del formulario para separarlo del mapa */
+    width: 500px; /* Establece el ancho del formulario */
+    background-color: rgb(104, 90, 117); /* Establece el color de fondo del formulario */
+    box-sizing: border-box; /* Establece el ancho y alto de la caja del formulario */
+    padding: 20px 30px; /* El relleno superior e inferior es de 20px, y el relleno derecho e izquierdo es de 30px */
+    border-radius: 10px; /* Establece esquinas redondeadas de la caja del formulario */
+    font-family: cursive; /* Específica la fuente del formulario */
+    margin-top: 40px; /* Establece el margen superior entre el formulario y el título */
+
+}
+
+h3 {
+
+    text-align: center; /* Establece un centrado de la fuente(título) del formulario */
+    color: salmon; /* Establace el color de la fuente(título) del formulario */
+}
+
+input, textarea {
+
+    width: 100%; /* Establece el ancho de los espacios a llenar */
+    margin-bottom: 20px; /* Establece el margen inferior de los espacios a llenar */
+    padding: 8px; /* Establece un relleno a los cuatro lados de 8 px */
+    font-size: 17px; /* Establece el tamaño de la fuente(letra) */
+    border-radius: 8px; /* Establece esquinas redondeadas de los espacios a llenar */
+    font-family: cursive; /* Específica la fuente(letra) de los espacios a llenar */
+
+}
+
+textarea {
+
+    min-height: 100px; /* Establece la altura minima para los comentarios */
+    max-height: 200px; /* Establece la altura maxima para los comentarios */
+
+}
+
+#boton {
+
+    background: salmon; /* Establece color de fondo en el boton enviar */
+    color: #000; /* Establece el color de la fuente(letra) */
+    padding: 10px; /* Establece un relleno a los cuatro lados de 20px */
+
+}
+
+#boton:hover {
+
+    cursor: pointer; /* Establece un cursor del mouse que se mostrará al apuntar sobre el boton enviar */
+    background: white; /* Establece el color de fondo cuando el cursor del mouse apunte sobre el boton enviar  */
+    color: salmon; /* Establece el color de la fuente(letra) cuando el cursor del mouse apunte sobre el boton enviar */
+
+}
+
+.iconos_redes {
+
+    display: flex; /* Establecemos que sea un contenedor flexible para poderle dar la propiedad de justify-content: center; */
+    justify-content: center; /* Alinea los elementos flexibles al centro del contenedor */
+    align-items: center; /* Establece la alineación predeterminada para los elementos dentro del contenedor flexible */
+
+}
+
+.iconos_redes img , a {
+
+    text-decoration: none; /* No establece decoración al texto de las imagenes */
+    margin: 100px 10px; /* Establece el margen de los cuatro lados, superior e inferior de 100px, derecho e izquierdo de 10px */
+   
+}
+
+.texto_footer {
+
+    padding-top: 8px; /* Establece un relleno superior para cepararlo de los iconos */
+    width: 100%; /* Establece un ancho del contenedor del 100% */
+    font-family: cursive; /* Establece la tipografia de la fuente(letra) */
+    text-align: center; /* Establece un centrado de la fuente(letra) */
+    color: white; /* Establece el color de la fuente(letra) */
+    font-size: 30px; /* Establece el tamaño de la fuente(letra) */
+    height: 80px; /* Establece un alto de 80px */
+}

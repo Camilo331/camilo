@@ -1,0 +1,128 @@
+.iconofisio {
+
+    background: #000000; /* Establecemos un fondo color negro */
+    padding-top: 15px; /* Establecemos un relleno en parte superior */
+    padding-bottom: 15px; /* Establecemos un relleno en la parte inferior */
+}
+
+.img_logo {
+
+    width: 180px; /* Establecemos un ancho para la imagen */
+    height: 210px; /* Establecemos un alto para la imagen */
+    margin: 0 auto; /* 0 indica arriba y abajo, auto indica izquierda y derecha: es una manera de centrar la imagen junto con display: block; */
+    display: block; /* Esta propiedad junto con margin me centra la imagen */
+
+}
+
+.main_header {
+
+    text-align: center; /* Centramos los hipervinculos */
+    width: 100%; /* Ubicaión del contenedor */
+    background-color: #000000; /* fondo de color negro */
+    font-size: 25px; /* Tamaño de fuente(letra) */
+    font-family: 'segoe print'; /* Tipografia del texto menu */
+
+}
+
+#boton_menu {
+
+    display: none; /* Se me esconde el cuadrito del checkbox */
+
+}
+
+.icono_menu {
+
+    padding-top: 30px; /* Baja un poquito el boton del menu  */
+
+}
+
+header label {
+
+    display: none; /* Escondemos el icono hamburguesa para que sea responsive */
+    width: 100px; /* Ancho */
+    padding: 10px; /* Relleno para el icono */
+    border-right: 1px solid #fff; /* Linea al lado derecho del icono, de color blanco */
+
+
+}
+
+
+.menu ul {
+
+    padding: 0; /* Para que queden en su valor inicial, establece un relleno para los cuatro lados de 0 */
+    margin: 0; /* para que queden en su valor inicial */
+    list-style: none; /* Quitamos los puntos(viñetas) de la lista */ 
+    display: inline-flex; /* Para que sean flexibles; uno al lado del otro */
+
+}
+
+.menu li {
+
+    padding: 20px 20px 20px 20px; /* Con direccion a las manecillas del reloj, relleno superior es de 20px, relleno derecho es de 20px, relleno infereior es de 20px, relleno izquierdo es de 20px  */
+
+}
+
+.menu li a {
+
+    text-decoration: none; /* Quitamos la línea de abajo de los hipervinculos */
+    color: white; /* Establecemos para la letra un color blanco */
+
+}
+
+.menu li a:hover {
+
+    text-decoration: overline; /* Animación para los hipervinculos cuando se pase el cursor por encima */
+    color: salmon;
+
+}
+
+/* Define el tamaño maximo de ancho */
+@media ( max-width: 920px ) { 
+
+    header label {
+
+        display: block; /* Ya me aparece el incono hamburguesa */
+        height: 75px; /* Alto del contenedor del icono hamburguesa */
+
+    }
+
+    .menu {
+
+        position: absolute;
+        background-color: salmon; /* Cambia el fondo de color negro a salmon */
+        width: 100%; /* Me va ocupar todo el ancho */
+        margin-left: -100%; /* Se me va esconder al lado izquierdo */
+        transition: all 0.5s; /* Animación en CSS */
+        z-index: 100; /* Me deja el menu encima de lo que tenemos cuando esta en pantalla completa */
+
+    }
+
+    #boton_menu:checked ~ .menu {
+
+        margin: 0; /* El menu se muestra, porque lo teniamos escondido */
+    
+    }
+    
+    .menu ul {
+
+        display: block; /* Para que el menu aparezca vertical */
+
+    }
+
+    .menu li:hover {
+
+        background-color: #000000; /* Fondo color negro cuando pase el cursor por encima */
+        
+    }
+
+    .menu li a:hover{
+
+        text-decoration: none; /* Quitamos lineas de la parte de arriba de los hipervinculos cuando se pasaba el cursor por encima */
+
+    }
+
+
+}   
+
+
+
